@@ -14,6 +14,6 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html; charset=UTF8");
 		PrintWriter out = resp.getWriter();
-		out.write("<h1>Hello, Jenkins!!!</h1>");
+		out.write("<h1>Hello, JENKINS!!!</h1>");
 	}
 }
